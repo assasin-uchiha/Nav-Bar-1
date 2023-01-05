@@ -18,6 +18,7 @@ button {
 .logo {
   cursor: pointer;
   border-radius: 50%;
+  margin-right: auto;
 }
 .header {
   display: flex;
@@ -52,10 +53,10 @@ button {
   transition-timing-function: ease;
   border-radius: 50000px;
   background-color: rgba(0, 136, 169, 1);
-  margin: 0;
+  margin: 0 0 0 1rem;
 }
 .btn:hover {
-  color: rgba(0, 136, 169, 0.8);
+  background-color: rgba(0, 136, 169, 0.8);
   background-color: #24252a;
   border: 1px solid #edf0f1;
 }
